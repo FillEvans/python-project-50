@@ -40,5 +40,3 @@ def get_diff(filepath1, filepath2):
     for i in diff:
         result += f"{i['type']} {i['key']}: {i['value']}\n"
     return result
-
-print(get_diff("/Users/gromov/Projects/python-project-50/tests/fixtures/file1.json", "/Users/gromov/Projects/python-project-50/tests/fixtures/file2.json"))
