@@ -1,9 +1,0 @@
-- age: 39
-+ age: 1000000
-- name: Madame Uppercut
-+ name: Eternal Flame
-- powers: ['Million tonne punch', 'Damage resistance', 'Superhuman reflexes']
-+ powers: ['Immortality', 'Heat Immunity', 'Inferno', 'Teleportation', 'Interdimensional travel']
-- secretIdentity: Jane Wilson
-+ secretIdentity: Unknown
-  status: Rich

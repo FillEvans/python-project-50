@@ -1,7 +1,7 @@
 import json
 
 
-def generate_diff(filepath1, filepath2):
+def get_diff(filepath1, filepath2):
     data1 = json.load(open(filepath1))
     data2 = json.load(open(filepath2))
     diff = []
@@ -40,3 +40,5 @@ def generate_diff(filepath1, filepath2):
     for i in diff:
         result += f"{i['type']} {i['key']}: {i['value']}\n"
     return result
+
+print(get_diff("/Users/gromov/Projects/python-project-50/tests/fixtures/file1.json", "/Users/gromov/Projects/python-project-50/tests/fixtures/file2.json"))
