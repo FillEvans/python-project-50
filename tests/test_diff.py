@@ -2,12 +2,12 @@ import pytest
 from gendiff.generate_diff import get_diff
 
 
-json1 = "fixtures/file1_for_test.json"
-json2 = "fixtures/file2_for_test.json"
-expected1 = "fixtures/result"
-json3 = "fixtures/file1.json"
-json4 = "fixtures/file2.json"
-expected2 = "fixtures/result2"
+json1 = "tests/fixtures/file1_for_test.json"
+json2 = "tests/fixtures/file2_for_test.json"
+expected1 = "tests/fixtures/result"
+json3 = "tests/fixtures/file1.json"
+json4 = "tests/fixtures/file2.json"
+expected2 = "tests/fixtures/result2"
 
 
 
