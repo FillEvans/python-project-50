@@ -1,4 +1,4 @@
-#!/Users/gromov/Projects/python-project-50/.venv/bin/python3.10
+#!/home/evans/python-project-50/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
