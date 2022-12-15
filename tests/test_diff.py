@@ -16,8 +16,8 @@ yml4 = "tests/fixtures/file2_for_test.yaml"
 @pytest.mark.parametrize('path1, path2, expected', [
     (json1, json2, expected1),
     (json3, json4, expected2),
-    (yml1, yml2, expected1),
-    (yml3, yml4, expected2),
+    (yml1, yml2, expected2),
+    (yml3, yml4, expected1),
 ])
 def test_diff(path1, path2, expected):
     with open(expected) as f:
